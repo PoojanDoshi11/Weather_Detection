@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: flask-app
+    repo: https://github.com/PoojanDoshi11/Weather_Detection
+    branch: master
+    buildCommand: |
+      pip install -r requirements.txt
+    startCommand: |
+      gunicorn app:app
+    publishDirectory: static  # Set to `static` if needed
