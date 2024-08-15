@@ -192,6 +192,15 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, accuracy_score
+import requests
+from io import StringIO
+
+# URL to the CSV file
+csv_url = 'https://github.com/PoojanDoshi11/csv_files/blob/main/weather.csv'
+
+# Fetch the CSV file
+response = requests.get(csv_url)
+csv_content = response.content.decode('utf-8')
 
 class WeatherPrediction:
     def __init__(self, data_path):
