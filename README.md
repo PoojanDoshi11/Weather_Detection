@@ -1,6 +1,7 @@
-# Speech Type Detection
+# Weather Type Detection
 
-This project utilizes a machine learning model to detect hate speech and offensive language in social media posts. Implemented using Python and Flask, it provides a web interface for users to input text and receive predictions. The model classifies text into three categories: "Hate Speech," "Offensive Language," and "No Hate or Offensive Language," achieving an accuracy of 87.3%.
+The WeatherPrediction class provides a framework for training and evaluating a RandomForestClassifier model to predict weather types based on various meteorological features. It fetches data from a specified CSV file, processes it, trains the model, and allows for predictions on new input data.
+
 
 ## Table of Contents
 
