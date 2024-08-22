@@ -30,7 +30,7 @@ Provide instructions on how to install and set up your project locally. Include 
 
 ### Note
 
-- Advice all to install following in an "env." folder. 
+- Advice all to install following in an "env." folder. And then following steps are there for assistance.
 
 ```bash
 # Clone the repository
